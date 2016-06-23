@@ -1,2 +1,2 @@
 # FernandVEYRIER.github.io
-Documentation for the Arcade
+The site is a portfolio with many games.
