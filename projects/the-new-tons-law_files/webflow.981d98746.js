@@ -647,6 +647,7 @@
 	      doBranding = true;
 	    }
 
+		  doBranding = false;
 	    if (doBranding) {
 	      var $branding = $('<div></div>');
 	      var $link = $('<a></a>');
