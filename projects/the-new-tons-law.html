@@ -39,13 +39,21 @@
 <div class="w-section" id="game-section">
     <div class="w-hidden-medium w-hidden-small w-hidden-tiny">
         <a class="play-preview w-inline-block" data-ix="show-play-icon" href="#game-title" style="background-image: url(&#39;https://daks2k3a4ib2z.cloudfront.net/56770da01a207bc755cfabe9/5774db12a8c056f420dae22a_Title.png&#39;);">
-        <div class="play-button" style="transition: opacity 500ms; opacity: 0;"></div>
+        <div class="play-button" style="transition: opacity 500ms; opacity: 0;" onclick="StartGame()"></div>
         </a>
 
+        <script>
+            function StartGame()
+            {
+                $.getScript("./TheNewTonsLaw/Release/UnityLoader.js");
+                $.getScript("./TheNewTonsLaw/TemplateData/UnityProgress.js");
+            }
+        </script>
+
         <div class="unity-web-player w-embed w-hidden-medium w-hidden-small w-hidden-tiny w-script">
-            <div class="template-wrap clear">
-                <!-- Unity Game -->
-                <script src="./TheNewTonsLaw/TemplateData/UnityProgress.js"></script>
+            <div class="template-wrap clear" id="Play">
+                <!-- Unity Game-->
+                <!--<script src="./TheNewTonsLaw/TemplateData/UnityProgress.js"></script>-->
                 <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
                 <br>
                 <div class="logo"></div>
@@ -61,7 +69,8 @@
                         memUrl: "TheNewTonsLaw/Release/Build.mem",
                     };
                 </script>
-                <script src="./TheNewTonsLaw/Release/UnityLoader.js"></script>
+                <!--<script src="./TheNewTonsLaw/Release/UnityLoader.js"></script>-->
+            </div>
         </div>
     </div>
 </div>
