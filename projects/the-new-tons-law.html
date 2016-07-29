@@ -38,31 +38,31 @@
 </div>
 <div class="w-section" id="game-section">
     <div class="w-hidden-medium w-hidden-small w-hidden-tiny">
-        <a class="play-preview w-inline-block" data-ix="show-play-icon" href="http://fernandveyrier.github.io/projects/the-new-tons-law#game-title" style="background-image: url(&#39;https://daks2k3a4ib2z.cloudfront.net/56770da01a207bc755cfabe9/5774db12a8c056f420dae22a_Title.png&#39;);">
+        <a class="play-preview w-inline-block" data-ix="show-play-icon" href="#game-title" style="background-image: url(&#39;https://daks2k3a4ib2z.cloudfront.net/56770da01a207bc755cfabe9/5774db12a8c056f420dae22a_Title.png&#39;);">
         <div class="play-button" style="transition: opacity 500ms; opacity: 0;"></div>
         </a>
 
-        <!-- Unity Game -->
-        <script src="./TheNewTonsLaw/TemplateData/UnityProgress.js"></script>
-        <div class="template-wrap clear">
-            <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-            <br>
-            <div class="logo"></div>
-            <div class="fullscreen"><img src="./TheNewTonsLaw/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-            <div class="title">GCJ2016</div>
+        <div class="unity-web-player w-embed w-hidden-medium w-hidden-small w-hidden-tiny w-script">
+            <div class="template-wrap clear">
+                <!-- Unity Game -->
+                <script src="./TheNewTonsLaw/TemplateData/UnityProgress.js"></script>
+                <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+                <br>
+                <div class="logo"></div>
+                <div class="fullscreen"><img src="./TheNewTonsLaw/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);"/></div>
+                <div class="title">GCJ2016</div>
+                <script type='text/javascript'>
+                    var Module = {
+                        TOTAL_MEMORY: 268435456,
+                        errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+                        compatibilitycheck: null,
+                        dataUrl: "TheNewTonsLaw/Release/Build.data",
+                        codeUrl: "TheNewTonsLaw/Release/Build.js",
+                        memUrl: "TheNewTonsLaw/Release/Build.mem",
+                    };
+                </script>
+                <script src="./TheNewTonsLaw/Release/UnityLoader.js"></script>
         </div>
-        <script type='text/javascript'>
-            var Module = {
-                TOTAL_MEMORY: 268435456,
-                errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-                compatibilitycheck: null,
-                dataUrl: "TheNewTonsLaw/Release/Build.data",
-                codeUrl: "TheNewTonsLaw/Release/Build.js",
-                memUrl: "TheNewTonsLaw/Release/Build.mem",
-            };
-        </script>
-        <script src="./TheNewTonsLaw/Release/UnityLoader.js"></script>
-
     </div>
 </div>
 <div class="w-container">
