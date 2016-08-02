@@ -628,6 +628,12 @@ img {
   margin-bottom: 41px;
 }
 
+.template-wrap {
+  width: 960px;
+  height: 600px;
+  margin: auto;
+}
+
 html.w-mod-js *[data-ix="game-preview"] {
   opacity: 0;
 }
