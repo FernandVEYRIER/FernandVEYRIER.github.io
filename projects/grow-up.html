@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html data-wf-site="56770da01a207bc755cfabdb" data-wf-page="56770da01a207bc755cfabe3" data-wf-status="1"
+      data-wf-domain="fernandveyrier.github.io"
+      class="w-mod-js w-mod-no-touch w-mod-video w-mod-no-ios wf-opensans-n4-active wf-lato-n3-active wf-lato-i3-active wf-lato-n4-active wf-lato-n7-active wf-opensans-n3-active wf-opensans-i3-active wf-opensans-i4-active wf-opensans-n6-active wf-opensans-i6-active wf-opensans-n7-active wf-opensans-i7-active wf-opensans-n8-active wf-opensans-i8-active wf-lato-n1-active wf-lato-i1-active wf-lato-i4-active wf-lato-i7-active wf-lato-n9-active wf-lato-i9-active wf-active">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Webflow">
+    <link rel="stylesheet" type="text/css" href="./the-new-tons-law_files/fernand-veyrier.webflow.81c0d10d3.css">
+    <script type="text/javascript" async="" src="./the-new-tons-law_files/ga.js"></script>
+    <script src="./the-new-tons-law_files/webfont.js"></script>
+    <link rel="stylesheet" href="./the-new-tons-law_files/css">
+    <script>WebFont.load({
+        google: {
+            families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+        }
+    });</script>
+    <script type="text/javascript" src="./the-new-tons-law_files/modernizr-2.7.1.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico">
+    <link rel="apple-touch-icon" href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png">
+</head>
+
+<body>
+<div class="hero project-page w-section">
+    <div class="nav w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
+        <div class="w-container"><a class="logo w-nav-brand" href="http://fernandveyrier.github.io/">
+            <div>Fernand Veyrier</div>
+        </a>
+            <nav class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link"
+                                                                  href="http://fernandveyrier.github.io/"
+                                                                  style="max-width: 940px;">Portfolio</a><a
+                    class="nav-link w-nav-link" href="http://fernandveyrier.github.io/about"
+                    style="max-width: 940px;">About</a><a class="nav-link w-nav-link"
+                                                          href="http://fernandveyrier.github.io/contact"
+                                                          style="max-width: 940px;">Contact</a></nav>
+            <div class="menu-button w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+        <div class="w-nav-overlay" data-wf-ignore=""></div>
+    </div>
+    <div class="heading-wrapper w-container" id="game-title"><a class="category-link w-inline-block"
+                                                                data-w-expand="category"
+                                                                href="http://fernand-veyrier.webflow.io/categories/video-game">
+        <h6 data-w-expand="category">Video Game</h6></a>
+        <h1 class="main-heading">Grow Up !</h1><img class="main-detail-image w-hidden-main"
+                                                    src="./the-new-tons-law_files/56b7ad3f075f9ea44d2d7d69_GrowUpPreview800_600.png">
+    </div>
+</div>
+<div class="w-section" id="game-section">
+    <div class="w-hidden-medium w-hidden-small w-hidden-tiny"><a class="play-preview w-inline-block"
+                                                                 data-ix="show-play-icon"
+                                                                 href="#game-title"
+                                                                 style="background-image: url(&#39;https://daks2k3a4ib2z.cloudfront.net/56770da01a207bc755cfabe9/56b7ad3f075f9ea44d2d7d69_GrowUpPreview800_600.png&#39;);">
+        <div class="play-button" style="transition: opacity 500ms; opacity: 0;"></div>
+    </a>
+        <div class="unity-web-player w-embed w-hidden-medium w-hidden-small w-hidden-tiny w-script">
+            <script type="text/javascript" src="./the-new-tons-law_files/jquery.min.js"></script>
+            <script type="text/javascript">
+                <!--
+                var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
+                if (document.location.protocol == 'https:')
+                    unityObjectUrl = unityObjectUrl.replace("http://", "https://ssl-");
+                document.write('<script type="text\/javascript" src="' + unityObjectUrl + '"><\/script>');
+                -->
+            </script>
+            <script type="text/javascript" src="./the-new-tons-law_files/UnityObject2.js"></script>
+            <script type="text/javascript">
+                <!--
+                var config = {
+                    width: 960,
+                    height: 600,
+                    params: {enableDebugging: "0"}
+                };
+                var u = new UnityObject2(config);
+                jQuery(function () {
+                    var $missingScreen = jQuery("#unityPlayer").find(".missing");
+                    var $brokenScreen = jQuery("#unityPlayer").find(".broken");
+                    $missingScreen.hide();
+                    $brokenScreen.hide();
+                    u.observeProgress(function (progress) {
+                        switch (progress.pluginStatus) {
+                            case "broken":
+                                $brokenScreen.find("a").click(function (e) {
+                                    e.stopPropagation();
+                                    e.preventDefault();
+                                    u.installPlugin();
+                                    return false;
+                                });
+                                $brokenScreen.show();
+                                break;
+                            case "missing":
+                                $missingScreen.find("a").click(function (e) {
+                                    e.stopPropagation();
+                                    e.preventDefault();
+                                    u.installPlugin();
+                                    return false;
+                                });
+                                $missingScreen.show();
+                                break;
+                            case "installed":
+                                $missingScreen.remove();
+                                break;
+                            case "first":
+                                break;
+                        }
+                    });
+                    u.initPlugin(jQuery("#unityPlayer")[0], "http://fernand.veyrier.free.fr/projects/game-jam-one.unity3d");
+                });
+                -->
+            </script>
+            <style type="text/css">
+                <!--
+                p.header {
+                    font-size: small;
+                }
+
+                p.header span {
+                    font-weight: bold;
+                }
+
+                p.footer {
+                    font-size: x-small;
+                }
+
+                div.content {
+                    margin: auto;
+                    width: 960px;
+                }
+
+                div.broken,
+                div.missing {
+                    margin: auto;
+                    position: relative;
+                    top: 50%;
+                    width: 193px;
+                }
+
+                div.broken a,
+                div.missing a {
+                    height: 63px;
+                    position: relative;
+                    top: -31px;
+                }
+
+                div.broken img,
+                div.missing img {
+                    border-width: 0px;
+                }
+
+                div.broken {
+                    display: none;
+                }
+
+                div#unityPlayer {
+                    cursor: default;
+                    height: 600px;
+                    width: 960px;
+                }
+
+                -->
+            </style>
+
+
+            <div class="content">
+                <div id="unityPlayer">
+                    <div class="missing" style="display: none;">
+                        <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                            <img alt="Unity Web Player. Install now!" src="./the-new-tons-law_files/getunity.png"
+                                 width="193"
+                                 height="63">
+                        </a>
+                    </div>
+                    <div class="broken" style="display: none;">
+                        <a href="http://unity3d.com/webplayer/"
+                           title="Unity Web Player. Install now! Restart your browser after install.">
+                            <img alt="Unity Web Player. Install now! Restart your browser after install."
+                                 src="./the-new-tons-law_files/getunityrestart.png" width="193" height="63">
+                        </a>
+                    </div>
+                    <div id="ThisBrowserDoesNotSupportUnityPlayer"
+                         style="width: 100%; height: 200px; border-color: rgba(231, 228, 157, 0.14902); border-style: solid; color: rgba(0, 0, 0, 0.65098); text-align: left; padding: 10px; background: rgba(231, 228, 157, 0.247059);">
+                        <img src="./the-new-tons-law_files/other_browser.jpg" style="float: left; margin-right: 15px;">
+                        <div style="overflow:hidden;">
+                            <div style="height:202px; display:inline-block; vertical-align:middle;"></div>
+                            <div style="display:inline-block;">
+                                <div style="display:inline-block; vertical-align:middle;"><span
+                                        style="font-weight:bold; font-size: 1.1em;">Sorry, Google Chrome can't run this app</span>
+                                    <p>You are using Google Chrome that does not support the Unity Web Player plugin
+                                        needed to run this app.<br>We recommend using another browser, such as <a
+                                                href="http://windows.microsoft.com/en-us/internet-explorer/">Internet
+                                            Explorer</a>, <a href="http://www.mozilla.org/firefox">Firefox</a> or <a
+                                                href="http://www.opera.com/">Opera</a>.</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="w-container">
+    <div class="project-body-copy w-richtext"><p data-new-link="true">Third Bordeaux Game Jam. We had to create a game
+        based on the topic <em>The nature stands up for its rights</em>, which we called<strong> Grow Up !</strong><br>This
+        game was presented at the COP 21 event.</p></div>
+</div>
+<div class="w-container"><h3 class="section-title">All Recent Work</h3>
+    <div class="w-dyn-list">
+        <div class="w-dyn-items w-row">
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernandveyrier.github.io/projects/the-new-tons-law"><img
+                    class="project-image" src="./the-new-tons-law_files/5774db12a8c056f420dae22a_Title.png"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernandveyrier.github.io/projects/feel-the-rampage"><img
+                    class="project-image"
+                    src="./the-new-tons-law_files/5774d9cca8dfa30f2163d674_FeelTheRampage2.jpg"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernandveyrier.github.io/projects/bailad-muertos"><img
+                    class="project-image"
+                    src="./the-new-tons-law_files/56b7b585075f9ea44d2d8900_coverbailadmuertos.jpg"></a>
+            </div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block w--current"
+                                                     href="http://fernandveyrier.github.io/projects/grow-up"><img
+                    class="project-image"
+                    src="./the-new-tons-law_files/56b7ad3f075f9ea44d2d7d69_GrowUpPreview800_600.png"></a>
+            </div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernand-veyrier.webflow.io/projects/global-game-jam"><img
+                    class="project-image" src="./the-new-tons-law_files/567753eb1a207bc755cfd84f_01.png"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernand-veyrier.webflow.io/projects/game-jam-one"><img
+                    class="project-image" src="./the-new-tons-law_files/5677d9b10854c7cc55cd04d6_02.png"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernand-veyrier.webflow.io/projects/game-jam-two"><img
+                    class="project-image" src="./the-new-tons-law_files/5677da5e0854c7cc55cd0539_03.png"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernand-veyrier.webflow.io/projects/game-dev-camp"><img
+                    class="project-image" src="./the-new-tons-law_files/5677dabc0854c7cc55cd0553_04.png"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernand-veyrier.webflow.io/projects/ludum-dare-32"><img
+                    class="project-image" src="./the-new-tons-law_files/5677db860854c7cc55cd0590_05.png"></a></div>
+            <div class="w-col w-col-4 w-dyn-item"><a class="w-inline-block"
+                                                     href="http://fernand-veyrier.webflow.io/projects/ludum-dare-33"><img
+                    class="project-image" src="./the-new-tons-law_files/5677dc18670b8ed21e385759_06.png"></a></div>
+        </div>
+    </div>
+</div>
+<div class="footer w-section">
+    <div class="w-container">
+        <div class="footer-logo">Games are love, games are life.</div>
+        <div>Fernand Veyrier | Portfolio</div>
+    </div>
+</div>
+<script type="text/javascript" src="./the-new-tons-law_files/jquery.min(1).js"></script>
+<script type="text/javascript" src="./the-new-tons-law_files/webflow.981d98746.js"></script>
+<!--[if lte IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
