@@ -2406,10 +2406,12 @@ img {
     margin-bottom: 50px;
     margin-left: auto;
     border-radius: 10px;
-    background-color: #0098ff;
-    background-image: url("https://daks2k3a4ib2z.cloudfront.net/56770da01a207bc755cfabdb/56783fd50854c7cc55cd7508_cv-icon.png");
+    /*background-color: #0098ff;*/
+    /*background-image: url("https://daks2k3a4ib2z.cloudfront.net/56770da01a207bc755cfabdb/56783fd50854c7cc55cd7508_cv-icon.png");*/
+    background-image: url("cv-icon.png");
     background-position: 50% 50%;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .text-over-image {
@@ -2924,4 +2926,53 @@ html.w-mod-js *[data-ix="fade-on-load"] {
     text-align: center;
     margin: 0 auto;
     z-index: 6;
+}
+/* end of timeline */
+
+.social {
+    text-align: center;
+    list-style: none;
+}
+
+.social ul {
+    padding-top: 40px;
+}
+
+.social li {
+    display: inline;
+}
+
+.social a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    border-radius: 3px;
+    /*background-color: #0098ff;*/
+    background-position: 50% 50%;
+    background-size: contain;
+    -webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.2s;
+    -ms-transition: all ease-out 0.2s;
+    -o-transition: all ease-out 0.2s;
+    transition: all ease-out 0.2s;
+}
+
+.social a:hover {
+    background-color: #00ad92;
+}
+
+.linkedin {
+    background: url("http://image.flaticon.com/icons/svg/34/34405.svg");
+}
+
+.github {
+    background: url("http://image.flaticon.com/icons/png/512/25/25231.png");
+    border-radius: 50%;
+}
+
+.facebook {
+    background: url("http://image.flaticon.com/icons/svg/33/33702.svg");
 }
