@@ -2412,6 +2412,16 @@ img {
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
+
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+.game-preview:hover {
+    background-image: url("cv-icon-dl.png");
 }
 
 .text-over-image {
@@ -2949,7 +2959,7 @@ html.w-mod-js *[data-ix="fade-on-load"] {
     margin-right: 30px;
     margin-bottom: 50px;
     margin-left: auto;
-    border-radius: 3px;
+    border-radius: 5px;
     /*background-color: #0098ff;*/
     background-position: 50% 50%;
     background-size: contain;
@@ -2964,12 +2974,25 @@ html.w-mod-js *[data-ix="fade-on-load"] {
     background-color: #00ad92;
 }
 
+.social.linkedin {
+    border-radius: 5px;
+}
+
+.social.facebook {
+    border-radius: 11px;
+}
+
+.social.github {
+    border-radius: 50%;
+}
+
 .linkedin {
     background: url("http://image.flaticon.com/icons/svg/34/34405.svg");
+    border-radius: 50%;
 }
 
 .github {
-    background: url("http://image.flaticon.com/icons/png/512/25/25231.png");
+    background: url("github-logo.png");
     border-radius: 50%;
 }
 
