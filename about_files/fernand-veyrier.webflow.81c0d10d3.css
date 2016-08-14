@@ -2939,6 +2939,8 @@ html.w-mod-js *[data-ix="fade-on-load"] {
 }
 /* end of timeline */
 
+
+/* Social */
 .social {
     text-align: center;
     list-style: none;
@@ -2998,4 +3000,9 @@ html.w-mod-js *[data-ix="fade-on-load"] {
 
 .facebook {
     background: url("http://image.flaticon.com/icons/svg/33/33702.svg");
+}
+/* end of social */
+
+.center-parent {
+    text-align: center;
 }
