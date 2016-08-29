@@ -50,7 +50,7 @@
 </div>
 <div class="w-section" id="game-section">
     <div class="w-hidden-medium w-hidden-small w-hidden-tiny">
-        <a class="play-preview w-inline-block" data-ix="show-play-icon" href="#game-title" style="background-image: url(https://fernandveyrier.github.io/projects/the-new-tons-law_files/rolling-gears.png);">
+        <a class="play-preview w-inline-block" data-ix="show-play-icon" href="#game-section" style="background-image: url(https://fernandveyrier.github.io/projects/the-new-tons-law_files/rolling-gears.png);">
             <div class="play-button" style="transition: opacity 500ms; opacity: 0;" onclick="StartGame()"></div>
         </a>
 
@@ -63,13 +63,12 @@
         </script>
 
         <div class="unity-web-player w-embed w-hidden-medium w-hidden-small w-hidden-tiny w-script">
-            <div class="template-wrap clear" id="Play">
+            <!-- we override style because it's a portait type game-->
+            <div class="template-wrap clear" id="Play" style="width: 520px; height: 854px">
                 <!-- Unity Game-->
                 <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="854px" width="520px"></canvas>
                 <br>
                 <div class="logo"></div>
-                <div class="fullscreen"><img src="./SweatchOrDie/TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);"/></div>
-                <div class="title">GCJ2016</div>
                 <script type='text/javascript'>
                     var Module = {
                         TOTAL_MEMORY: 268435456,
@@ -87,7 +86,7 @@
     </div>
 </div>
 <div class="w-container">
-    <div class="project-body-copy w-richtext"><p data-new-link="true">36th edition of the Ludum Dare, the theme being
+    <div class="project-body-copy w-richtext"><p data-new-link="true">36th edition of the <a href="http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=52696" target="_blank">Ludum Dare</a>, the theme being
         <em>Ancient Technology</em>, called
         <strong>Rolling Gears</strong>.</p>
         <p>The longer you roll, the higher you score !</p></div>
