@@ -1,6 +1,0 @@
-gems: jekyll-redirect-from
-title: WWW redir
-fernandveyrier.github.io: toto.io
-redirect_from:
-    - www.fernandveyrier.github.io
-    - fernandveyrier.github.io
