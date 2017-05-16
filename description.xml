@@ -4,19 +4,19 @@
 <minor>0</minor>
 </specVersion>
 <device>
-<deviceType>urn:schemas-wifialliance-org:device:WFADevice:1</deviceType>
+<deviceType>urn:schemas-wifialliance-org:device:CestMoiLeDevice:1</deviceType>
 <friendlyName>COUCOUCESTMOI</friendlyName>
-<manufacturer>Ralink Technology, Corp.</manufacturer>
+<manufacturer>Meniole corp</manufacturer>
 <manufacturerURL>http://www.ralinktech.com.tw</manufacturerURL>
-<modelDescription>Ralink AP WSC device</modelDescription>
-<modelName>Ralink Wireless Access Point</modelName>
-<modelNumber>RT2880</modelNumber>
+<modelDescription>Super custom device</modelDescription>
+<modelName>Damn model name</modelName>
+<modelNumber>42</modelNumber>
 <modelURL>http://www.ralinktech.com.tw</modelURL>
 <serialNumber>12345678</serialNumber>
-<UDN>uuid:28802880-2880-1880-a880-a06391779b25</UDN>
+<UDN>uuid:8A82E1FB-AC48-4E98-B3B4-2153D14E04FD</UDN>
 <serviceList>
 <service>
-<serviceType>urn:schemas-wifialliance-org:service:WFAWLANConfig:1</serviceType>
+<serviceType>urn:schemas-wifialliance-org:service:CustomService:1</serviceType>
 <serviceId>urn:wifialliance-org:serviceId:WFAWLANConfig1</serviceId>
 <SCPDURL>WFAWLANConfigSCPD.xml</SCPDURL>
 <controlURL>control</controlURL>
@@ -24,5 +24,5 @@
 </service>
 </serviceList>
 </device>
-<URLBase>http://192.168.33.50:49152/</URLBase>
+<URLBase>http:// 192.168.33.103:49152/</URLBase>
 </root>
