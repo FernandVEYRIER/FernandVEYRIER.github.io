@@ -4,7 +4,7 @@
 <minor>0</minor>
 </specVersion>
 <device>
-<deviceType>urn:schemas-wifialliance-org:device:CestMoiLeDevice:1</deviceType>
+<deviceType>urn:schemas-upnp-org:device:CestMoiLeDevice:1</deviceType>
 <friendlyName>COUCOUCESTMOI</friendlyName>
 <manufacturer>Meniole corp</manufacturer>
 <manufacturerURL>http://www.ralinktech.com.tw</manufacturerURL>
@@ -16,13 +16,12 @@
 <UDN>uuid:8A82E1FB-AC48-4E98-B3B4-2153D14E04FD</UDN>
 <serviceList>
 <service>
-<serviceType>urn:schemas-wifialliance-org:service:CustomService:1</serviceType>
-<serviceId>urn:wifialliance-org:serviceId:WFAWLANConfig1</serviceId>
+<serviceType>urn:schemas-upnp-org:service:CustomService:1</serviceType>
+<serviceId>urn:schemas-upnp-org:service:WFAWLANConfig:1</serviceId>
 <SCPDURL>WFAWLANConfigSCPD.xml</SCPDURL>
 <controlURL>control</controlURL>
 <eventSubURL>event</eventSubURL>
 </service>
 </serviceList>
 </device>
-<URLBase>http:// 192.168.33.103:49152/</URLBase>
 </root>
