@@ -40,13 +40,16 @@
 			</div>
 			<div class="w-nav-overlay" data-wf-ignore=""></div>
 		</div>
-		<div class="heading-wrapper w-container">
+		<div class="heading-wrapper w-container" id="title">
 			<h1 class="main-heading" data-ix="fade-in-move" style="opacity: 1; transform: translateX(0px) translateY(35px) translateZ(0px); transition: all opacity 1000ms, transform 500ms;">Welcome to my portfolio.</h1>
 			<a class="button w-button" data-ix="fade-on-load" href="http://fernandveyrier.github.io/contact" style="transition: all 0.2s ease 0s, opacity 700ms; opacity: 1;">Get in touch</a>
 		</div>
 
 	</div>
-	<div class="section w-section">
+
+	<div id="loader"></div>
+
+	<div class="section w-section" id="work">
 		<div class="w-container">
 			<h3 class="section-title" data-ix="game-preview" style="opacity: 1; transition: opacity 500ms;">Latest Work</h3>
 			<div class="w-dyn-list">
@@ -149,13 +152,26 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer w-section">
+	<div class="footer w-section" id="footer">
 		<div class="w-container">
 			<div class="footer-logo">Games are love, games are life.</div>
 			<div>Fernand Veyrier | Portfolio</div>
 		</div>
 	</div>
+
 	<script type="text/javascript" src="./index_files/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript">
+        $('#work').hide();
+        $('#title').hide();
+        $('#footer').hide();
+
+        $(window).load(function() {
+            $('#loader').hide();
+            $('#work').show();
+            $('#title').show();
+            $('#footer').show();
+        });
+	</script>
 <script type="text/javascript" src="./index_files/webflow.981d98746.js"></script>
 <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
